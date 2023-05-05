@@ -1,0 +1,89 @@
+
+/*
+  fonts do google fonts
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+*/
+
+
+/*nomeando as cores de projeto*/
+* {
+  font-style: none;
+  text-decoration: none;
+  margin: 0;
+  --yellow-og: rgb(255 153 0);
+  --gray-back: rgb(125 121 135);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+  /*alinhar os itens ao meio*/
+  text-align: center;
+}
+
+#hero {
+  /*especificando largura de caixa*/
+  width: 592px;
+  /*igualando as margens para equilibrar ao meio da tela */
+  margin: 0 auto 72px;
+}
+
+#hero img {
+  /*medida de espaçamento segundo figma*/
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+p #footer {
+  color: var(--gray-back);
+
+  font-size:14px;
+  line-height: 28px;
+}
+
+span, a {
+  color: var(--yellow-og);
+}
+
+#footer{
+  margin-bottom: 33px;
+}
+
+/* pedido de espaçamento pedindo para capiturar o A anterior ao A
+e assim especificando o tamanho em px */
+#footer a + a {
+  margin-left: 28px;
+
+}
+
+#line {
+/*lembrando que se definir o tamanho
+ de algo tem que alinhar com o margin auto!!!*/
+  width:568px;
+  height: 0px;
+  margin: auto;
+  border: 1px rgb(236 239 242) solid;
+}
+
+#balls {
+  /*alinhando um detalhe dee canto de tela */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
